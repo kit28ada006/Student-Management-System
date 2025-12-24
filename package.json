@@ -1,0 +1,24 @@
+{
+  "name": "attendance-management-system",
+  "version": "1.0.0",
+  "description": "Complete Attendance Management System with MERN Stack",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend/ams-frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend/ams-frontend && npm run dev",
+    "start-backend": "cd backend && npm start",
+    "build-frontend": "cd frontend/ams-frontend && npm run build"
+  },
+  "keywords": [
+    "attendance",
+    "management",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
